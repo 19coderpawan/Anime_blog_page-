@@ -1,0 +1,210 @@
+/* this css file is for styling the content of the page . */
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    width:6vw;
+    height:5vh;
+    border-radius: 100%;
+    justify-content: center;
+    align-self: center;
+    
+}
+.navigation{
+    /* height:90px; */
+    font-size: 25px;
+    /* background-color: red; */
+    font-family: var(--font1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.nav-left{
+    display:flex;
+    align-items: center;
+}
+.nav-left ul{
+    display: flex;
+    margin:0px 39px;
+    align-items: center;
+}
+.nav-left ul li{
+    list-style: none;
+    margin:0px 6px;
+    font-size:23px;
+    font-family: var(--font1);
+    color:red;
+}
+.nav-left ul li:hover{
+    cursor: pointer;
+    color: black;
+}
+.nav-right .form-input{
+    font-weight: bolder;
+}
+.nav-right .btn{
+    font-weight: bolder;
+    color:white;
+    background-color: red;
+    transition:all 0.4s ease-in-out;
+}
+.nav-right .btn:hover{
+    background-color: aqua;
+    color:black;
+    border:2px solid blue;
+    cursor: pointer;
+}
+.content1{
+    height:50vh;
+    /* background-color: yellow; */
+    display: flex;
+    position: relative;
+}
+.content1 .radio-button{
+    left:300px;
+    top:358px;
+}
+.content-head img{
+    height:40vh;
+    border-radius: 30px;;
+}
+.content2{
+    /* height: 209px; */
+    /* background: black; */
+    color:red;  
+    display:flex;
+}
+.radio-button{
+    /* background-color: red; */
+    position:absolute;
+    height:90px;
+    width:120px;
+    right:-18px;
+    top:25px;
+    color:black;
+    font-size: 10px;
+}
+.radio-button h2:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.radio-button div{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.content3{
+    height:210vh;
+    background-color: blue;
+}
+.content-left{
+    width:50vw;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-self: center; 
+}
+
+.content-left p{
+    padding:10px 0px;
+    font-weight: bolder;
+    font-size:15px;
+    font-family: var(--font1);
+    line-height: 25px;;
+}
+.content-left span h1{
+    color:black;
+}
+.content-left span h1:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.content-right{
+    width:50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-right img{
+    width:40vw;
+    height: 20vh;
+    border:2px solid black;
+    border-radius: 30px;
+    border:none;
+}
+.content-right:hover{
+    cursor:pointer;
+}
+
+.footer{
+    height: 22vh;
+    /* background: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bolder;
+    flex-direction: column;
+    text-decoration: none;
+}
+.footer h5{
+    padding-top: 10px;
+}
+.footer h5 ,.fa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.footer .fa {
+    padding: 6px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    margin: 8px 5px;
+    color:blue;
+  }
+  .fa:hover{
+    opacity: 0.6;
+    color:aqua;
+  }
+  .fa-facebook{
+   background:rgb(127, 122, 122);
+   border-radius: 30px;
+   text-align: center;
+  }
+  .fa-twitter{
+    background:rgb(147, 140, 140);
+    border-radius: 30px;
+    text-align: center;
+   }
+   .fa-instagram{
+    background:rgb(147, 140, 140);
+    border-radius: 30px;
+    text-align: center;
+   }
+   .fa-linkedin{
+    background:rgb(115, 111, 111);
+    border-radius: 30px;
+    text-align: center;
+   }
+  
+/* .footer:hover{
+    text-decoration: underline;
+} */
+ .content-head  hr{ 
+    height:1px;
+    border:2px solid red;
+    background-color: black;
+    margin:10px 0px;
+}
+h4{
+    font-weight: bolder;
+    font-size:29px;
+}
+a{
+    text-decoration: none;
+}

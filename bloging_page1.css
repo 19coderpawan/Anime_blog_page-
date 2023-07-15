@@ -1,0 +1,51 @@
+
+.header_section{
+   font-family: var(--font1); 
+   /* background-color: red; */
+}
+.header_section img{
+    height:50vh;
+    margin-top:13px;
+    margin-bottom:23px;
+}
+.header_section h1{
+    margin-bottom: 16px;
+}
+.header_section .name{
+    font-size: 12px;
+    font-weight: bold;
+}
+.header_section p{
+    line-height: 1.7em;
+    font-size: 22px;
+    font-family: Georgia,Times,Times New Roman,serif;
+    color:#333;
+}
+.article_content{
+    /* background-color: blue; */
+    height:398vh;
+}
+.article_content img{
+    width:50vw;
+}
+.article_content .ac1{
+    margin-top:30px ;
+    margin-bottom: 30px;
+}
+.ac1 .heading1,.heading2,img,p{
+    margin-top:15px;
+    margin-bottom: 5px;
+}
+.ac1 .heading1{
+    color:rgb(163, 126, 126);
+    border:4px solid black;
+    border-radius: 20px;
+    width:49px;
+    }
+.ac1 p{
+    font-weight: bold;
+    font-size:17px;
+    line-height: 1.7em;
+    font-family: var(--font1);
+    color:rgb(95, 87, 87);
+}

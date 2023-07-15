@@ -1,0 +1,39 @@
+/* this css file is for utilites like for spacing , margins, padding ,height ,width, variables, etc. */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik+Vinyl&display=swap');
+
+
+/* now we also have CSS variables which we create for custom property which is defined using -- double hypen. */
+/* most commonly :root seudo-class used to defind the custon property. */
+:root{
+    --main-bg-color:brown;
+    --font1: 'Roboto Slab', serif;
+    --font2:'Rubik Vinyl', cursive;
+ }
+.max-width-1{
+    /* vw stands for viewport width . which will make your width responsive as per the devices. */
+   width: 80vw;
+}
+.max-width-2{
+   width:60vw;
+}
+/* to make the content and the footer in center */
+.margin-auto{
+    margin:auto;
+}
+.my-margin{
+  margin-bottom:43px;
+  margin-top: 43px;
+}
+.btn{
+height: 25px;
+border:2px solid black;
+border-radius:5px;
+padding:3px 5px;
+}
+.form-input{
+  padding:7px 10px;
+  border: 2px solid black;
+  border-radius:10px;
+  width: 50%;
+} 

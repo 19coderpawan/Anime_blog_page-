@@ -1,0 +1,41 @@
+.content-contact-text{
+    background-image: url("chain.jpg");
+    background-size: cover;
+    /* filter:blur(2px); */
+    width:58vw;
+    height: 89vh;  
+    z-index: -1;
+}
+.form-control{
+    padding:10px;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+}
+.form-control input,textarea , button{
+    padding:10px 20px;
+    margin: 10px 16px;
+    font-weight: bolder;
+    border-radius:20px;
+}
+
+.button-btn{
+    
+    color:white;
+    background-color: red;
+    transition:all 0.4s ease-in-out;
+    width:90px;
+    text-align: center;
+    align-self: center;
+    border-radius:40px;
+}
+.button-btn:hover{
+    background-color: aqua;
+    color:black;
+    border:2px solid blue;
+    cursor: pointer;
+}
+h1{
+    text-decoration: underline;
+    /* text-align: center; */
+}
